@@ -5,25 +5,22 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.2</version>
+        <version>2.6.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.vallegrande</groupId>
-    <artifactId>Microservice1</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>Microservice2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Microservice1</name>
-    <description>Microservice1</description>
+    <name>Microservice2</name>
+    <description>Microservice2</description>
     <properties>
         <java.version>11</java.version>
-        <spring-cloud.version>2021.0.0</spring-cloud.version>
+        <spring-cloud.version>2021.0.1</spring-cloud.version>
     </properties>
     <dependencies>
-
-        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.6.2</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>

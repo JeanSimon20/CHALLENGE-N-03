@@ -3,7 +3,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8082/eureka
+      defaultZone: http://localhost:8080/eureka
 spring:
   application:
-    name: Microservice-1
+    name: Microservice-2
